@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.pengaturan">
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Privasi Anda"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <TextView
+        android:id="@+id/textView77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notifikasi Aplikasi"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <TextView
+        android:id="@+id/textView78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Riwayat Chat"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <TextView
+        android:id="@+id/textView79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pengaturan Bahasa"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <TextView
+        android:id="@+id/textView82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Versi Aplikasi"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="322dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="302dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName15"
+        android:layout_width="302dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName16"
+        android:layout_width="302dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName17"
+        android:layout_width="302dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName18"
+        android:layout_width="302dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="238dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName19"
+        android:layout_width="302dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <ImageView
+        android:id="@+id/imageView105"
+        android:layout_width="413dp"
+        android:layout_height="134dp"
+        app:srcCompat="@drawable/path_3"
+        tools:layout_editor_absoluteX="-9dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <ImageView
+        android:id="@+id/imageView106"
+        android:layout_width="53dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/setting_icon"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="714dp" />
+
+    <TextView
+        android:id="@+id/textView83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sell"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="768dp" />
+
+    <TextView
+        android:id="@+id/textView84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="765dp" />
+
+    <ImageView
+        android:id="@+id/imageView107"
+        android:layout_width="68dp"
+        android:layout_height="82dp"
+        app:srcCompat="@drawable/ic_home_black_24dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="702dp" />
+
+    <ImageView
+        android:id="@+id/imageView112"
+        android:layout_width="62dp"
+        android:layout_height="59dp"
+        app:srcCompat="@drawable/ellipse"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="709dp" />
+
+    <ImageView
+        android:id="@+id/imageView114"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/simbol_tambah"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="709dp" />
+
+    <TextView
+        android:id="@+id/textView85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="768dp" />
+
+    <ImageView
+        android:id="@+id/imageView115"
+        android:layout_width="394dp"
+        android:layout_height="145dp"
+        app:srcCompat="@drawable/rectangle_6"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-6dp" />
+
+    <ImageView
+        android:id="@+id/imageView116"
+        android:layout_width="181dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_32" />
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pengaturan"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <ImageView
+        android:id="@+id/imageView118"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/ic_notifications_black_24dp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <ImageView
+        android:id="@+id/imageView119"
+        android:layout_width="59dp"
+        android:layout_height="42dp"
+        app:srcCompat="@drawable/asset_12"
+        tools:layout_editor_absoluteX="303dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName20"
+        android:layout_width="302dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keluar"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="429dp" />
+
+    <TextView
+        android:id="@+id/textView88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tentang JULMAH App"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="355dp" />
+
+    <TextView
+        android:id="@+id/textView89"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pusat Bantuan"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="392dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

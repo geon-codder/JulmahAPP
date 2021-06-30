@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "527167274631",
+    "project_id": "julmah-53365",
+    "storage_bucket": "julmah-53365.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527167274631:android:57811f7aa12ed1a2220222",
+        "android_client_info": {
+          "package_name": "com.klp6.julmah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527167274631-1un606rb7t18p092kn8am1bak353ef39.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArPmoKRbcSboFEuqex-kV3yJ6LB5Z4ZOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527167274631-1un606rb7t18p092kn8am1bak353ef39.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

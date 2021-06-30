@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.berkasjulmah3">
+
+    <ImageView
+        android:id="@+id/imageView94"
+        android:layout_width="413dp"
+        android:layout_height="134dp"
+        app:srcCompat="@drawable/path_3"
+        tools:layout_editor_absoluteX="-9dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <ImageView
+        android:id="@+id/imageView84"
+        android:layout_width="64dp"
+        android:layout_height="57dp"
+        app:srcCompat="@drawable/logokembali"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="711dp" />
+
+    <ImageView
+        android:id="@+id/imageView95"
+        android:layout_width="53dp"
+        android:layout_height="54dp"
+        app:srcCompat="@drawable/setting_icon"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="714dp" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="768dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="227dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/rectangle_32"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lanjutkan"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton22"
+        android:layout_width="99dp"
+        android:layout_height="106dp"
+        android:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/location"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView2"
+        android:layout_width="289dp"
+        android:layout_height="77dp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <ImageView
+        android:id="@+id/imageView90"
+        android:layout_width="394dp"
+        android:layout_height="145dp"
+        app:srcCompat="@drawable/rectangle_6"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-4dp" />
+
+    <ImageView
+        android:id="@+id/imageView91"
+        android:layout_width="181dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_32" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lokasi Anda"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <ImageView
+        android:id="@+id/imageView92"
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        app:srcCompat="@drawable/ic_notifications_black_24dp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <ImageView
+        android:id="@+id/imageView93"
+        android:layout_width="73dp"
+        android:layout_height="49dp"
+        app:srcCompat="@drawable/asset_12"
+        tools:layout_editor_absoluteX="314dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="768dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

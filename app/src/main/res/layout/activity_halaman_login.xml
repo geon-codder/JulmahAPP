@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1EFF26"
+    android:backgroundTint="#1EFF26"
+    tools:context=".activities.halaman_login">
+
+    <ImageView
+        android:id="@+id/gbr_hal_login"
+        android:layout_width="571dp"
+        android:layout_height="884dp"
+        app:srcCompat="@drawable/cover"
+        tools:layout_editor_absoluteX="-73dp"
+        tools:layout_editor_absoluteY="-63dp" />
+
+    <ImageView
+        android:id="@+id/logo_julmah2"
+        android:layout_width="184dp"
+        android:layout_height="174dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/logo_julmah"
+        tools:layout_editor_absoluteX="118dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="315dp"
+        android:layout_height="465dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_30"
+        tools:layout_editor_absoluteX="39dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView4"
+        app:srcCompat="@drawable/rectangle_32" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="76dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="8dp"
+        android:text="Masuk"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="@+id/imageView5"
+        tools:layout_editor_absoluteX="158dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="65dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="88dp"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.317"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/logofb" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nama Pengguna/Email"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Kata Sandi"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="184dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:srcCompat="@drawable/rectangle_32" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Masuk"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="@+id/imageButton2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Buat Akun"
+        android:textColor="#040000"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        tools:layout_editor_absoluteX="178dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="60dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="92dp"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.702"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/logogoogle" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
